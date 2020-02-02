@@ -1,0 +1,128 @@
+.privireAnsamblu{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+.camera{
+    display: flex;
+    height: 400px;
+    width: 50%;
+    border: 1px solid blueviolet;
+    flex-direction: column;
+}
+.incapere{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.functionalitate{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.alegereEtaj{
+    display: flex;
+    height: 300px;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.etajInput{
+    width: 50%;
+    margin: 2px;
+}
+
+.usiLift{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    border:1px solid black;
+}
+.usaStanga{
+    height: 300px;
+    width: 50%;
+    border: 2px solid black;
+    background-color: palevioletred;
+}
+.usaDreapta{
+    height: 300px;
+    width: 50%;
+    background-color: palevioletred;
+    border: 2px solid black;
+    order: 1;
+}
+.butoaneCamera{
+    display: flex;
+    width: 25%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.alegereEtaj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    /* align-items: center; */
+    width: 25%;
+    
+}
+
+
+label{
+    border:1px solid black;
+}
+.lift{
+    display:flex;
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 400px;
+    width: 50%;
+    border: 1px solid green;
+}
+
+.numeAfisor{
+    flex-direction: row;
+    height: 100px;
+}
+
+.afisorLift{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    /* align-items: flex-start; */
+}
+.usiButoane{
+    display: flex;
+    height: 300;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.liftName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 25%;
+}
+
+.butoane{
+    display: flex;
+    width: 25%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
